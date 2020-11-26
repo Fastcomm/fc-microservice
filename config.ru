@@ -239,7 +239,7 @@ pre {
 
 <section class='container'>
           <hgroup>
-            <h1>Fastcomm yo $(TEST_ENV) in the $(OTHER_TEST)</h1>
+            <h1>Fastcomm yo '$(TEST_ENV)' in the '$(OTHER_TEST)'</h1>
           </hgroup>
 
 
