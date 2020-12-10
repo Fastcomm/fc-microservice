@@ -1,0 +1,22 @@
+Started GET "/" for 127.0.0.1 at 2020-12-06 19:17:27 +0200
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/michael/.gem/ruby/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/michael/.gem/ruby/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 21.3ms | Allocations: 400)
+Completed 200 OK in 72ms (Views: 48.8ms | ActiveRecord: 0.0ms | Allocations: 2486)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-10 21:50:31 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/michael/.gem/ruby/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/michael/.gem/ruby/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 15.2ms | Allocations: 294)
+Completed 200 OK in 40ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 1637)
+
+
+Started GET "/" for ::1 at 2020-12-10 22:24:30 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LandingController#welcome as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 328)
+
+
