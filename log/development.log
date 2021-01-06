@@ -20,3 +20,9 @@ Processing by LandingController#welcome as HTML
 Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 328)
 
 
+Started GET "/" for 127.0.0.1 at 2021-01-06 08:51:29 +0200
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LandingController#welcome as HTML
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 328)
+
+

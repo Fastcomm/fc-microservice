@@ -1,0 +1,9 @@
+db/*.sqlite3
+log/*.log
+tmp/**/*
+.*sw?
+.env
+.env.*
+*~
+.byebug_history
+node_modules/
