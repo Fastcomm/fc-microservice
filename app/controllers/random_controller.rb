@@ -3,7 +3,7 @@
 class RandomController < ApplicationController
     def random
         render json: {
-            "randomNumber": SecureRandom.number
+            "randomNumber": SecureRandom.uuid
         }, status: :ok
     end
   end
